@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/cristianosilva/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardPage() {\n    return (\n        <div>\n            <h2 className=\"text-2xl font-bold mb-4\">Bem-vindo ao Budget Hub</h2>\n            <p className=\"text-[var(--text-secondary)]\">Selecione uma opção no menu lateral para começar.</p>\n        </div>\n    )\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,2TAAC;;0BACG,2TAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,2TAAC;gBAAE,WAAU;0BAA+B;;;;;;;;;;;;AAGxD"}}]
-}
