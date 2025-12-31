@@ -1,15 +1,25 @@
 'use client'
 
-import { useActionState, useState } from 'react'
+import { useFormState, useFormStatus } from 'react-dom'
+import { useState } from 'react'
 import { login } from '@/app/actions/auth'
 
 const initialState = {
     error: '',
 }
 
+function SubmitButton() {
+    const { pending } = useFormStatus()
+    return (
+        <button type="submit" disabled={pending} className="w-full btn btn-primary py-2 mt-4 disabled:opacity-50">
+            {pending ? 'Entrando...' : 'Entrar'}
+        </button>
+    )
+}
+
 function Login() {
     const [showForgot, setShowForgot] = useState(false)
-    const [state, formAction, isPending] = useActionState(async (prevState: any, formData: FormData) => {
+    const [state, formAction] = useFormState(async (prevState: any, formData: FormData) => {
         const result = await login(formData)
         if (result?.error) {
             return { error: result.error }
@@ -61,9 +71,7 @@ function Login() {
                         </button>
                     </div>
 
-                    <button type="submit" disabled={isPending} className="w-full btn btn-primary py-2 mt-4 disabled:opacity-50">
-                        {isPending ? 'Entrando...' : 'Entrar'}
-                    </button>
+                    <SubmitButton />
 
                     <div className="mt-6">
                         <div className="relative">

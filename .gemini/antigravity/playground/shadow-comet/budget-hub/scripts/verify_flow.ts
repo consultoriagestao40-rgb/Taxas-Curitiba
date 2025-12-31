@@ -77,7 +77,7 @@ async function verify() {
             companyId: companyA.id
         }
     })
-    const totalA = entriesA.reduce((sum, e) => sum + e.amount, 0)
+    const totalA = entriesA.reduce((sum: number, e: any) => sum + e.amount, 0)
     if (totalA !== 1000) throw new Error(`Expected 1000 for Company A, got ${totalA}`)
     console.log('3a. Filter Company A: OK')
 
@@ -89,7 +89,7 @@ async function verify() {
             companyId: companyB.id
         }
     })
-    const totalB = entriesB.reduce((sum, e) => sum + e.amount, 0)
+    const totalB = entriesB.reduce((sum: number, e: any) => sum + e.amount, 0)
     if (totalB !== 2000) throw new Error(`Expected 2000 for Company B, got ${totalB}`)
     console.log('3b. Filter Company B: OK')
 
@@ -101,7 +101,7 @@ async function verify() {
             year: 2025
         }
     })
-    const totalAll = entriesAll.reduce((sum, e) => sum + e.amount, 0)
+    const totalAll = entriesAll.reduce((sum: number, e: any) => sum + e.amount, 0)
     if (totalAll !== 3000) throw new Error(`Expected 3000 Consolidated, got ${totalAll}`)
     console.log('3c. Consolidated: OK')
 

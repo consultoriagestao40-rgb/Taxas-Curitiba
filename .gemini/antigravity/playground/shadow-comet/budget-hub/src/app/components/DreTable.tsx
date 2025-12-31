@@ -165,8 +165,8 @@ export function DreTable({ initialData, tenantId, year, availableCompanies, filt
                 code: editPropsTarget.code,
                 type: editPropsTarget.type,
                 formula: editPropsTarget.formula || '',
-                percentage: editPropsTarget.percentage === null ? null : (editPropsTarget.percentage || null),
-                baseCode: editPropsTarget.baseCode || null
+                percentage: editPropsTarget.percentage ?? undefined,
+                baseCode: editPropsTarget.baseCode ?? undefined
             })
             setIsEditPropsModalOpen(false)
         } catch (error: any) {

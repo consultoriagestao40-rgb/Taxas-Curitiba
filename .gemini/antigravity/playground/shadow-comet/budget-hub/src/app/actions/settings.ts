@@ -165,10 +165,10 @@ export async function getCities() {
     })
 }
 
-export async function createCity(name: string) {
+export async function createCity(name: string, state: string) {
     const session = await getSession()
     await checkAdmin(session)
-    await prisma.city.create({ data: { name, tenantId: session.tenantId } })
+    await prisma.city.create({ data: { name, state, tenantId: session.tenantId } })
     revalidatePath('/dashboard/settings')
 }
 

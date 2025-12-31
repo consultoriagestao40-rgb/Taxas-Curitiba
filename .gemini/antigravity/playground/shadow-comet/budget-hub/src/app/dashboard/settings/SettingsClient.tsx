@@ -40,7 +40,7 @@ export function SettingsClient({
 
     // Modal State
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [formData, setFormData] = useState({ name: '', code: '', email: '', role: 'USER', password: '' })
+    const [formData, setFormData] = useState({ name: '', code: '', email: '', role: 'USER', password: '', state: '' })
     const [isSubmitting, setIsSubmitting] = useState(false)
     const [editingId, setEditingId] = useState<string | null>(null)
 
@@ -51,7 +51,7 @@ export function SettingsClient({
     const [isSavingPerms, setIsSavingPerms] = useState(false)
 
     const handleOpenModal = () => {
-        setFormData({ name: '', code: '', email: '', role: 'USER', password: '' })
+        setFormData({ name: '', code: '', email: '', role: 'USER', password: '', state: '' })
         setEditingId(null)
         setIsModalOpen(true)
     }
@@ -62,7 +62,8 @@ export function SettingsClient({
             code: '',
             email: user.email,
             role: user.role,
-            password: ''
+            password: '',
+            state: ''
         })
         setEditingId(user.id)
         setIsModalOpen(true)
@@ -85,7 +86,10 @@ export function SettingsClient({
                 else if (activeTab === 'costCenters') await createCostCenter({ name: formData.name, code: formData.code })
                 else if (activeTab === 'clients') await createClient(formData.name)
                 else if (activeTab === 'groupings') await createGrouping(formData.name)
-                else if (activeTab === 'cities') await createCity(formData.name)
+                else if (activeTab === 'cities') {
+                    if (!formData.state) throw new Error('Estado (UF) é obrigatório')
+                    await createCity(formData.name, formData.state)
+                }
                 else if (activeTab === 'groups') await createCostCenterGroup(formData.name)
                 else if (activeTab === 'segments') await createCostCenterSegment(formData.name)
                 else if (activeTab === 'users') {
@@ -320,6 +324,19 @@ export function SettingsClient({
                                         onChange={e => setFormData({ ...formData, code: e.target.value })}
                                         className="input-outline"
                                         placeholder="Ex: 001"
+                                    />
+                                </div>
+                            )}
+                            {activeTab === 'cities' && (
+                                <div>
+                                    <label className="block text-sm font-medium mb-1">UF (Estado)</label>
+                                    <input
+                                        type="text"
+                                        maxLength={2}
+                                        value={formData.state}
+                                        onChange={e => setFormData({ ...formData, state: e.target.value.toUpperCase() })}
+                                        className="input-outline"
+                                        placeholder="SP"
                                     />
                                 </div>
                             )}
