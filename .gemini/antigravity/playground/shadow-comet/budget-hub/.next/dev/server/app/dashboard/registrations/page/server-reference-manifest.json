@@ -1,0 +1,380 @@
+{
+  "node": {
+    "00b0718b2eb0a2ad60ca3fe619c2114c6b2e3b08ee": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logout",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "logout",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts"
+    },
+    "403931a1932867a5e222560d59852f4bbccbd4ec27": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCompany",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createCompany",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "60ddeb177cbf2362b860235eb22b8ab4ef9843651e": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCompany",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateCompany",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "405fe09abd42de53dc9573aac88ef90af49e297f53": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCompany",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteCompany",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40964397eac34decbbfbbf61943757105bf49afbea": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createDepartment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createDepartment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "600a68d80110f6f84b44d704f9c396e1f1d6e0cbe7": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateDepartment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateDepartment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40fd38f729f20fea5b9d52f5e22fe8295ef1d2828f": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteDepartment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteDepartment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40d27c0c41f4e6b42e783f71f8b2848f6ffea8e421": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCostCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createCostCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "607cbc31323012f6cd7d8e66586f0c0ac53b51c914": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCostCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateCostCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40327258fa66bb87df40de6549b6eb160e06b79fc5": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCostCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteCostCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40fe23235daa569ad33db0ffc91825a6ea4c67461a": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createClient",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createClient",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "603ed6c401384bd2c2559bbf8e7a2b46efe697926b": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateClient",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateClient",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "4025b5b9d00f844c434bdba07983a7d7d0ce0ffeba": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteClient",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteClient",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40d5e0da4af8aee6225031fa2a52cb26fa5fec12a6": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createExpenseCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createExpenseCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "60e5b9b8139c4c2546aed1beeaec16bae42d011130": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateExpenseCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateExpenseCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40537bbb8e35cc0e5a015d2d57f47c7660f0dbdab5": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteExpenseCenter",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteExpenseCenter",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40acb10fa4d821930fd55f03ca3389fde621217605": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCity",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createCity",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "60087d1296e681fab9d5a08d9408bff0a858ffc65c": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCity",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateCity",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "403adac1c5267cb2de3a770cf00979c12215af31f9": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCity",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteCity",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "400e242551724102579d96c97569c8218421a4138d": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCostCenterGroup",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createCostCenterGroup",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "600b8b69d412308924e0cd5b2f89ac7bd4e81f91d0": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCostCenterGroup",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateCostCenterGroup",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40cfab9e691c473f57d776d28f10fadd32cf67458b": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCostCenterGroup",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteCostCenterGroup",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40dce3a3ed4be2c0fdbbeeccdc7ca027c7fe356c34": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCostCenterSegment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "createCostCenterSegment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "6052249be54e36cf0d74f4d2ef3d94620e987bf951": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCostCenterSegment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "updateCostCenterSegment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    },
+    "40d9c05fb18c2dcbbec29e168cd8945502e212b6ff": {
+      "workers": {
+        "app/dashboard/registrations/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/dashboard/registrations/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCostCenterSegment",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/registrations/page": "action-browser"
+      },
+      "exportedName": "deleteCostCenterSegment",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/registrations.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40dcdf57ac53024af9223c1ffec9f7cc501ae81445": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": "[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/.next-internal/server/app/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/.gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerTenant",
+          "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "registerTenant",
+      "filename": ".gemini/antigravity/playground/shadow-comet/budget-hub/src/app/actions/auth.ts"
+    }
+  },
+  "edge": {}
+}
