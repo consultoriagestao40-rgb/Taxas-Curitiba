@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/admin/clients/[id]",
+      "regex": "^/admin/clients/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/clients/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/employees/[id]",
+      "regex": "^/admin/employees/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/employees/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/mobile/site/[id]",
+      "regex": "^/mobile/site/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/mobile/site/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/mobile/site/[id]/coverage",
+      "regex": "^/mobile/site/([^/]+?)/coverage(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/mobile/site/(?<nxtPid>[^/]+?)/coverage(?:/)?$"
+    },
+    {
+      "page": "/mobile/site/[id]/occurrence/new",
+      "regex": "^/mobile/site/([^/]+?)/occurrence/new(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/mobile/site/(?<nxtPid>[^/]+?)/occurrence/new(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/allowance-types",
+      "regex": "^/admin/allowance\\-types(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/allowance\\-types(?:/)?$"
+    },
+    {
+      "page": "/admin/clients",
+      "regex": "^/admin/clients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/clients(?:/)?$"
+    },
+    {
+      "page": "/admin/companies",
+      "regex": "^/admin/companies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/companies(?:/)?$"
+    },
+    {
+      "page": "/admin/dimensionamento",
+      "regex": "^/admin/dimensionamento(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dimensionamento(?:/)?$"
+    },
+    {
+      "page": "/admin/employees",
+      "regex": "^/admin/employees(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/employees(?:/)?$"
+    },
+    {
+      "page": "/admin/history",
+      "regex": "^/admin/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/history(?:/)?$"
+    },
+    {
+      "page": "/admin/occurrences",
+      "regex": "^/admin/occurrences(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/occurrences(?:/)?$"
+    },
+    {
+      "page": "/admin/probation-monitor",
+      "regex": "^/admin/probation\\-monitor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/probation\\-monitor(?:/)?$"
+    },
+    {
+      "page": "/admin/recrutamento",
+      "regex": "^/admin/recrutamento(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/recrutamento(?:/)?$"
+    },
+    {
+      "page": "/admin/requests",
+      "regex": "^/admin/requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/requests(?:/)?$"
+    },
+    {
+      "page": "/admin/roles",
+      "regex": "^/admin/roles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/roles(?:/)?$"
+    },
+    {
+      "page": "/admin/roster",
+      "regex": "^/admin/roster(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/roster(?:/)?$"
+    },
+    {
+      "page": "/admin/schedules",
+      "regex": "^/admin/schedules(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/schedules(?:/)?$"
+    },
+    {
+      "page": "/admin/situations",
+      "regex": "^/admin/situations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/situations(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
+      "page": "/admin/vacation-monitor",
+      "regex": "^/admin/vacation\\-monitor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/vacation\\-monitor(?:/)?$"
+    },
+    {
+      "page": "/api/export/logs",
+      "regex": "^/api/export/logs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/export/logs(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
+    },
+    {
+      "page": "/mobile",
+      "regex": "^/mobile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile(?:/)?$"
+    },
+    {
+      "page": "/mobile/alerts",
+      "regex": "^/mobile/alerts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile/alerts(?:/)?$"
+    },
+    {
+      "page": "/mobile/profile",
+      "regex": "^/mobile/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile/profile(?:/)?$"
+    },
+    {
+      "page": "/mobile/requests",
+      "regex": "^/mobile/requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile/requests(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

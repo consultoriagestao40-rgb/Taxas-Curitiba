@@ -1,0 +1,3 @@
+module.exports=[14937,a=>{"use strict";var b=a.i(10804);function c(){return(0,b.jsx)("div",{className:"fixed inset-0 z-[9999] flex items-center justify-center bg-white/50 backdrop-blur-sm pointer-events-none transition-opacity animate-in fade-in duration-300",children:(0,b.jsxs)("div",{className:"flex flex-col items-center gap-4",children:[(0,b.jsx)("div",{className:"w-12 h-12 border-4 border-slate-200 border-t-blue-600 rounded-full animate-spin"}),(0,b.jsx)("p",{className:"text-sm font-medium text-slate-600 animate-pulse",children:"Carregando dados..."})]})})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=_gemini_antigravity_playground_rapid-astro_src_app_loading_tsx_5bc51d11._.js.map

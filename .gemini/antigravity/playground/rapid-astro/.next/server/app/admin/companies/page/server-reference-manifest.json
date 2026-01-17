@@ -1,0 +1,635 @@
+{
+  "node": {
+    "40b9bd6a8633cd70ae034c7d9e414f92d82f31df12": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "registerCoverage",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "registerCoverage",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40e81c85f64b2c50e17724ab2f82d82581e38705c9": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createCompany",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createCompany",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4001a5f39c6a2b9ea8e82ca6c3fa886b44143d40b2": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateCompany",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateCompany",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40d5fb419b5100b97d275ac0bd67f866afb2830beb": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createClient",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createClient",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "406d1c5a57c4a1a36635d982ceba8a4b9fde15bd5b": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createSituation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createSituation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40a5468161a2c6ba62bf37e437c2f233e17210358f": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateSituation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateSituation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40b15552b551d859968eb616fcc7a4a2b54b6cef5b": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteSituation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteSituation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "407ab555489f6241a15f4bf0e6e344bb053b894ac3": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createRole",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createRole",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4097ff3fd5db9cd288f450ac36c83ff8d79aee6288": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateRole",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateRole",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40350dd1f33d21dfde44298f4974f4c2be869234ee": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteRole",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteRole",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "407b76ad7b83cc308853d2f6d5805e42486af35d17": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createAllowanceType",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createAllowanceType",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40d2dcce79447cc599c57921541563bc372ad22559": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteAllowanceType",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteAllowanceType",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40ef57b9e75bf08c983559af58d39e7e733d9422ca": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "addEmployeeAllowance",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "addEmployeeAllowance",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40bdc9bb71f70b03d48af72277e0e3590bcac4bb30": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateEmployeeAllowance",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateEmployeeAllowance",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "406ae657a44fe60b5ce0ae3eb421aef64b939735ad": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "removeEmployeeAllowance",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "removeEmployeeAllowance",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4007e0f5d8742ede6f239ab4e5c2b97a97fa31380a": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createPosto",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createPosto",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40bdbbafe6994e8c0e28b114ce49e71f6145934101": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createEmployee",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createEmployee",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40071fca22de4257831396dd10a904f8021d728584": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "assignEmployee",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "assignEmployee",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "400721f7ae69e982044f8de44df892e419b4f954bc": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "unassignEmployee",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "unassignEmployee",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40e3df0d098a468aff5da217521c09d66b1a6df292": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createSchedule",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createSchedule",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40c2fe8360c872eac83e60ced568596c085e00bc59": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateSchedule",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateSchedule",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40071b7143959901a931820465f6ae7a598cc02502": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteSchedule",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteSchedule",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "407e32320c693c309fc552933b782b89bcd88af49e": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateClient",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateClient",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4065887e066242bb6593be9e0310b1b92ddbea05cc": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteClient",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteClient",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4008d458a038ec4a5f5146e6a3230a4ea510839289": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deletePosto",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deletePosto",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40e03e0d6ecda91f89776950dd756845a8e1fd1959": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updatePosto",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updatePosto",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4053135786fecafe2fc7ec45062fadfd5c6e668242": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateEmployee",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateEmployee",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40898be9021ee51ed3c83dec59b9525f796790ef0f": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "addVacation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "addVacation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "60732a5b331671d275c1f1b01c14cc61b752ea5cec": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteVacation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteVacation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "0042964007b591c109188f315db478188a7a723911": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "getEmployeesOnVacation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "getEmployeesOnVacation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4099d8547dbcfe140cf6c3f50d7569aede4d9b1c03": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "login",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "login",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "0010dda3a01aa3199be9c328a545e69bda1cb5a590": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "logout",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "logout",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "006248ca0b7747cafd3743eecb18f5de9c5df1474e": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "getUsers",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "getUsers",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "403f5e846da041507babf1fe89952fdc3087320bd8": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "importEmployeesBatch",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "importEmployeesBatch",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40c00da950fff630f437cc8163730c7985d702d308": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteEmployeesBatch",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteEmployeesBatch",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "402dc5c290a506d84fc41adeb7d2a1a2c36b993352": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "createUser",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "createUser",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "406d391841dcd20829ca5009d25e68b726f6093a64": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "updateUser",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "updateUser",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "4065353b239b81ded1a05fd1a8c8fc914b2a574878": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteUser",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteUser",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40a08d24f26f1805517421876877352052fa8b5bac": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "deleteEmployee",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "deleteEmployee",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40beb03173ce25ede020610dd8fef45bfe1a2289b8": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "getEmployeeTimeline",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "getEmployeeTimeline",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "6039b57b477fe36efd46c2eb78886236e177ce1a87": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "confirmProbation",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "confirmProbation",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    },
+    "40523dd3a190adc75dcdd49949e0ecedf5b70e3372": {
+      "workers": {
+        "app/admin/companies/page": {
+          "moduleId": 58503,
+          "async": false,
+          "exportedName": "requestProbationDismissal",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/companies/page": "action-browser"
+      },
+      "exportedName": "requestProbationDismissal",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/actions.ts"
+    }
+  },
+  "edge": {}
+}

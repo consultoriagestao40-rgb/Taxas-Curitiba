@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40790b7ff791106dc12d10b469de315923e8ebd373": {
+      "workers": {
+        "app/mobile/site/[id]/occurrence/new/page": {
+          "moduleId": 90399,
+          "async": false,
+          "exportedName": "createOccurrence",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-occurrences.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/site/[id]/occurrence/new/page": "action-browser"
+      },
+      "exportedName": "createOccurrence",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-occurrences.ts"
+    }
+  },
+  "edge": {}
+}

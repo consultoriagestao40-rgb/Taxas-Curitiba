@@ -1,0 +1,50 @@
+{
+  "node": {
+    "009892544e0926597741a1b065056675ab30ef6a6f": {
+      "workers": {
+        "app/mobile/requests/page": {
+          "moduleId": 9180,
+          "async": false,
+          "exportedName": "getMobileRequests",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/requests/page": "rsc"
+      },
+      "exportedName": "getMobileRequests",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+    },
+    "4087fbc1d8a0b21a854691f1a3f143e1efdcfb6d4c": {
+      "workers": {
+        "app/mobile/requests/page": {
+          "moduleId": 9180,
+          "async": false,
+          "exportedName": "createRequest",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/requests/page": "action-browser"
+      },
+      "exportedName": "createRequest",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+    },
+    "40e11b0d10850b583e2c8e933b78b12ea5888175e0": {
+      "workers": {
+        "app/mobile/requests/page": {
+          "moduleId": 9180,
+          "async": false,
+          "exportedName": "cancelRequest",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/requests/page": "rsc"
+      },
+      "exportedName": "cancelRequest",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-requests.ts"
+    }
+  },
+  "edge": {}
+}

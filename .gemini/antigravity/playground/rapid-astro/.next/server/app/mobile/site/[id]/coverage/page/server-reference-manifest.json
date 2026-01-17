@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40f41066badbd9a4819844a209292714918383710e": {
+      "workers": {
+        "app/mobile/site/[id]/coverage/page": {
+          "moduleId": 51953,
+          "async": false,
+          "exportedName": "createMobileCoverage",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-coverage.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/site/[id]/coverage/page": "rsc"
+      },
+      "exportedName": "createMobileCoverage",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions-coverage.ts"
+    }
+  },
+  "edge": {}
+}

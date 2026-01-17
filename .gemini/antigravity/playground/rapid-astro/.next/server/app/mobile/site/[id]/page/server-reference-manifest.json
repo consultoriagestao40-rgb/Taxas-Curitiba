@@ -1,0 +1,35 @@
+{
+  "node": {
+    "60b11f200370c48f165f0aadbad9915989d05e3f35": {
+      "workers": {
+        "app/mobile/site/[id]/page": {
+          "moduleId": 85984,
+          "async": false,
+          "exportedName": "logCheckIn",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/site/[id]/page": "action-browser"
+      },
+      "exportedName": "logCheckIn",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions.ts"
+    },
+    "606aee4dfbec47e0c7b1d516fd2a91218c0cc08b22": {
+      "workers": {
+        "app/mobile/site/[id]/page": {
+          "moduleId": 85984,
+          "async": false,
+          "exportedName": "reportAbsence",
+          "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions.ts"
+        }
+      },
+      "layer": {
+        "app/mobile/site/[id]/page": "action-browser"
+      },
+      "exportedName": "reportAbsence",
+      "filename": ".gemini/antigravity/playground/rapid-astro/src/app/mobile/actions.ts"
+    }
+  },
+  "edge": {}
+}
