@@ -6,12 +6,20 @@
     opacity: 0;
   }
 
+  .animate-pulse-fast {
+    animation: pulseFast 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
   .delay-100 {
     animation-delay: 0.1s;
   }
 
   .delay-200 {
     animation-delay: 0.2s;
+  }
+
+  .delay-300 {
+    animation-delay: 0.3s;
   }
 }
 
@@ -24,5 +32,19 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes pulseFast {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.95;
+    transform: scale(1.05);
   }
 }

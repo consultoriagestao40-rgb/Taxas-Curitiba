@@ -14,83 +14,98 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <main className="min-h-screen bg-gray-50 flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
+    <main className="min-h-screen bg-gray-50 font-sans selection:bg-yellow-400 selection:text-blue-900">
 
-      {/* Navbar Placeholder for Logo (Optional, based on "Clean Tech" vibe) */}
-      <nav className="w-full py-6 px-4 md:px-8 max-w-5xl mx-auto flex justify-between items-center opacity-0 animate-fade-in">
-        <span className="text-xl font-bold tracking-tighter text-gray-900">UP!<span className="text-blue-900">SERVIÇOS</span></span>
+      {/* Navbar Minimalista */}
+      <nav className="w-full py-4 px-4 md:px-8 bg-blue-900 text-white shadow-md">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
+          <span className="text-2xl font-black tracking-tighter text-white">TAXAS<span className="text-yellow-400">UP!</span></span>
+          <a href="#vagas" className="hidden md:block text-sm font-bold bg-white/10 px-4 py-2 rounded hover:bg-white/20 transition">VAGAS DISPONÍVEIS</a>
+        </div>
       </nav>
 
-      <section className="flex-grow w-full max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12 md:gap-20">
-        {/* Left Content: Hero Text */}
-        <div className="flex-1 text-center md:text-left space-y-8 animate-fade-in delay-100">
-          <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-gray-900 leading-tight">
-              Taxas Diárias em <br className="hidden md:block" />
-              <span className="text-blue-900">Curitiba e Região.</span>
+      {/* Hero Section - Foco Total na Ação */}
+      <section className="relative w-full bg-gradient-to-b from-blue-900 to-blue-800 text-white py-12 md:py-20 px-4 overflow-hidden">
+        {/* Background Element */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-yellow-400 rounded-full mix-blend-overlay filter blur-3xl opacity-20 -translate-y-1/2 translate-x-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-72 h-72 bg-blue-500 rounded-full mix-blend-overlay filter blur-3xl opacity-20 translate-y-1/2 -translate-x-1/2"></div>
+
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 relative z-10">
+
+          {/* Texto e CTA */}
+          <div className="flex-1 text-center md:text-left space-y-6 animate-fade-in">
+            <div className="inline-block bg-yellow-400 text-blue-900 font-extrabold text-sm md:text-base px-4 py-1 rounded-full uppercase tracking-wide mb-2 shadow-lg transform -rotate-1">
+              🚀 Oportunidade Confirmada
+            </div>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none drop-shadow-xl">
+              VAGAS ABERTAS <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">CURITIBA</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-500 font-light max-w-lg mx-auto md:mx-0 leading-relaxed">
-              Oportunidades todos os dias com pagamento simplificado. Escolha seu turno e comece agora.
+            <p className="text-xl md:text-2xl text-blue-100 font-medium max-w-xl mx-auto md:mx-0 leading-relaxed">
+              Receba por dia. Pagamento rápido. Sem burocracia. Escolha seu turno e comece a faturar.
             </p>
+
+            <div className="pt-4 flex flex-col items-center md:items-start">
+              <a
+                href="https://chat.whatsapp.com/CrFnCXEKNwx4IGvGa4RHAH?mode=gi_t"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animate-pulse-fast bg-green-500 hover:bg-green-400 text-white border-b-8 border-green-700 active:border-b-0 active:translate-y-2 font-black text-2xl md:text-3xl py-6 px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-100 w-full md:w-auto flex items-center justify-center gap-3"
+              >
+                <span>👉 ENTRAR NO GRUPO</span>
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.463 1.065 2.876 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" /></svg>
+              </a>
+              <p className="mt-3 text-yellow-300 text-sm font-semibold tracking-wide uppercase">⚡ Vagas limitadas - Entre agora!</p>
+            </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="pt-4">
-            <a
-              href="https://chat.whatsapp.com/CrFnCXEKNwx4IGvGa4RHAH?mode=gi_t"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-blue-900 hover:bg-blue-800 text-white font-semibold text-lg py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 transform hover:-translate-y-1"
-            >
-              ENTRAR NO GRUPO DE WHATSAPP
-              <svg className="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
-            </a>
-            <p className="mt-4 text-xs text-gray-400">Clique para acessar o grupo oficial de vagas.</p>
+          {/* Tabela Flutuante - Direita */}
+          <div className="flex-1 w-full max-w-md animate-fade-in delay-200">
+            <div className="relative">
+              <div className="absolute -inset-1 bg-yellow-400 rounded-2xl blur opacity-30 animate-pulse"></div>
+              <div className="relative">
+                <RateTable />
+              </div>
+            </div>
           </div>
-        </div>
 
-        {/* Right Content: Floating Rate Card */}
-        <div className="flex-1 w-full max-w-md animate-fade-in delay-200">
-          <RateTable />
         </div>
       </section>
 
-      {/* Feature Icons Section */}
-      <section className="w-full bg-white border-t border-gray-100 py-16">
-        <div className="max-w-5xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center animate-fade-in delay-200">
+      {/* Requisitos em Destaque */}
+      <section className="py-16 bg-white px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center animate-fade-in delay-300">
 
-          <div className="space-y-3 p-4">
-            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-100 hover:border-blue-200 transition-colors shadow-sm hover:shadow-md">
+            <div className="w-16 h-16 mx-auto bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 text-3xl font-bold">
+              🛠️
             </div>
-            <h3 className="text-gray-900 font-semibold">Experiência na Área</h3>
-            <p className="text-gray-500 text-sm">Necessário conhecimento prévio para execução das tarefas.</p>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Experiência</h3>
+            <p className="text-gray-600">Ter atuado na área e conhecer o serviço.</p>
           </div>
 
-          <div className="space-y-3 p-4">
-            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-100 hover:border-blue-200 transition-colors shadow-sm hover:shadow-md">
+            <div className="w-16 h-16 mx-auto bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mb-4 text-3xl font-bold">
+              ⏰
             </div>
-            <h3 className="text-gray-900 font-semibold">Pontualidade</h3>
-            <p className="text-gray-500 text-sm">Compromisso com os horários estipulados para cada turno.</p>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Pontualidade</h3>
+            <p className="text-gray-600">Chegar no horário é o único segredo do sucesso.</p>
           </div>
 
-          <div className="space-y-3 p-4">
-            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-100 hover:border-blue-200 transition-colors shadow-sm hover:shadow-md">
+            <div className="w-16 h-16 mx-auto bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4 text-3xl font-bold">
+              🤝
             </div>
-            <h3 className="text-gray-900 font-semibold">Comprometimento</h3>
-            <p className="text-gray-500 text-sm">Seriedade e dedicação na realização dos serviços.</p>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Compromisso</h3>
+            <p className="text-gray-600">Marcou? Compareceu. Simples assim.</p>
           </div>
 
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-8 bg-gray-50 text-center text-sm text-gray-400 border-t border-gray-100">
-        <p>Up!Serviços - Gestão Inteligente de Facilities</p>
+      <footer className="py-10 bg-gray-900 text-center text-gray-400 border-t border-gray-800">
+        <p className="font-medium">Up!Serviços &copy; {new Date().getFullYear()} - Gestão Inteligente de Facilities</p>
       </footer>
     </main>
   );
