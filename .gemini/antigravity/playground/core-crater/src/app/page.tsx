@@ -1,7 +1,6 @@
 
 "use client";
 
-import Image from "next/image";
 import RateTable from "@/components/RateTable";
 import { useEffect, useState } from "react";
 
@@ -15,80 +14,84 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white font-sans selection:bg-yellow-400 selection:text-blue-900">
-      {/* Hero Section */}
-      <section className="relative w-full py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden">
-        <div className="absolute inset-0 z-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1581578731117-e0d7424141d5?q=80&w=3464&auto=format&fit=crop')] bg-cover bg-center" />
-        <div className="relative z-10 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 drop-shadow-lg">
-            <span className="block text-white">TAXAS UP!</span>
-            <span className="block text-yellow-400">SERVIÇOS</span>
-          </h1>
-          <div className="inline-block bg-yellow-400 text-blue-900 px-8 py-2 rounded-full transform -rotate-2 shadow-xl mt-4 mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wide">Vaga para taxa</h2>
+    <main className="min-h-screen bg-gray-50 flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
+
+      {/* Navbar Placeholder for Logo (Optional, based on "Clean Tech" vibe) */}
+      <nav className="w-full py-6 px-4 md:px-8 max-w-5xl mx-auto flex justify-between items-center opacity-0 animate-fade-in">
+        <span className="text-xl font-bold tracking-tighter text-gray-900">UP!<span className="text-blue-900">SERVIÇOS</span></span>
+      </nav>
+
+      <section className="flex-grow w-full max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12 md:gap-20">
+        {/* Left Content: Hero Text */}
+        <div className="flex-1 text-center md:text-left space-y-8 animate-fade-in delay-100">
+          <div className="space-y-4">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-gray-900 leading-tight">
+              Taxas Diárias em <br className="hidden md:block" />
+              <span className="text-blue-900">Curitiba e Região.</span>
+            </h1>
+            <p className="text-lg md:text-xl text-gray-500 font-light max-w-lg mx-auto md:mx-0 leading-relaxed">
+              Oportunidades todos os dias com pagamento simplificado. Escolha seu turno e comece agora.
+            </p>
           </div>
+
+          {/* CTA Button */}
+          <div className="pt-4">
+            <a
+              href="https://chat.whatsapp.com/CrFnCXEKNwx4IGvGa4RHAH?mode=gi_t"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-blue-900 hover:bg-blue-800 text-white font-semibold text-lg py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 transform hover:-translate-y-1"
+            >
+              ENTRAR NO GRUPO DE WHATSAPP
+              <svg className="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+            <p className="mt-4 text-xs text-gray-400">Clique para acessar o grupo oficial de vagas.</p>
+          </div>
+        </div>
+
+        {/* Right Content: Floating Rate Card */}
+        <div className="flex-1 w-full max-w-md animate-fade-in delay-200">
+          <RateTable />
         </div>
       </section>
 
-      {/* Content Container */}
-      <div className="container mx-auto px-4 pb-20 max-w-4xl relative z-10">
+      {/* Feature Icons Section */}
+      <section className="w-full bg-white border-t border-gray-100 py-16">
+        <div className="max-w-5xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center animate-fade-in delay-200">
 
-        {/* Requirements Section */}
-        <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 mb-12 shadow-xl border border-white/10 animate-fade-in-up delay-100">
-          <h3 className="text-2xl font-semibold mb-6 text-yellow-400 border-b border-white/20 pb-2 inline-block">Requisitos:</h3>
-          <ul className="space-y-4 text-lg md:text-xl text-gray-100 leading-relaxed list-none">
-            <li className="flex items-start">
-              <span className="mr-3 text-yellow-400">❖</span>
-              Responsabilidade, pontualidade e comprometimento;
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-yellow-400">❖</span>
-              Experiência prévia na área;
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-yellow-400">❖</span>
-              <span>Carga horária: <span className="text-gray-400 text-base">(será divulgado no canal de conversa)</span></span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-yellow-400">❖</span>
-              <span>Local de trabalho: <span className="text-gray-400 text-base">(será divulgado no canal de conversa)</span></span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-yellow-400">❖</span>
-              <span>Valor da taxa: <span className="text-gray-400 text-base">(depende da carga horária)</span></span>
-            </li>
-          </ul>
+          <div className="space-y-3 p-4">
+            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3 className="text-gray-900 font-semibold">Experiência na Área</h3>
+            <p className="text-gray-500 text-sm">Necessário conhecimento prévio para execução das tarefas.</p>
+          </div>
+
+          <div className="space-y-3 p-4">
+            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <h3 className="text-gray-900 font-semibold">Pontualidade</h3>
+            <p className="text-gray-500 text-sm">Compromisso com os horários estipulados para cada turno.</p>
+          </div>
+
+          <div className="space-y-3 p-4">
+            <div className="w-12 h-12 mx-auto bg-blue-50 rounded-full flex items-center justify-center text-blue-900">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <h3 className="text-gray-900 font-semibold">Comprometimento</h3>
+            <p className="text-gray-500 text-sm">Seriedade e dedicação na realização dos serviços.</p>
+          </div>
+
         </div>
+      </section>
 
-        {/* Rates Table Section */}
-        <div className="mb-16 animate-fade-in-up delay-200">
-          <RateTable />
-        </div>
-
-        {/* CTA Section */}
-        <div className="text-center animate-bounce-subtle delay-300">
-          <p className="mb-6 text-xl text-gray-300 font-light">Entre no grupo agora mesmo e garanta sua vaga!</p>
-          <a
-            href="https://chat.whatsapp.com/CrFnCXEKNwx4IGvGa4RHAH?mode=gi_t"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold text-2xl py-4 px-12 rounded-full shadow-lg hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 group"
-          >
-            <span className="mr-3">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.969.585 1.809.896 2.796.896 3.181 0 5.767-2.587 5.767-5.766 0-3.181-2.587-5.767-5.767-5.782zm8.854-1.809c-1.424-1.92-3.667-3.047-6.071-3.047-4.226 0-7.662 3.436-7.662 7.662 0 1.956.326 2.651 1.053 4.144L6 18.66l6.602-1.728c.639.176 1.483.428 2.283.428 4.227 0 7.663-3.436 7.663-7.662 0-2.046-.799-3.969-2.261-5.334l-.402-.401z" />
-              </svg>
-            </span>
-            CLICK AQUI
-            <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
-          </a>
-        </div>
-
-        {/* Footer */}
-        <footer className="mt-20 text-center text-sm text-gray-400 border-t border-white/10 pt-8">
-          <p>&copy; {new Date().getFullYear()} Taxas UP! Serviços. Todos os direitos reservados.</p>
-        </footer>
-      </div>
+      {/* Footer */}
+      <footer className="py-8 bg-gray-50 text-center text-sm text-gray-400 border-t border-gray-100">
+        <p>Up!Serviços - Gestão Inteligente de Facilities</p>
+      </footer>
     </main>
   );
 }
